@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <script src='https://aframe.io/releases/1.0.4/aframe.min.js'></script>
+</head>
+<body>
+<a-scene>
+ <a-sky color='#FDBC9D'></a-sky>
+
+ <a-entity position='0 0 15'>
+  <a-camera></a-camera>
+ </a-entity>
+
+ <!--Floor-->
+  <a-plane  rotation='-90 0 0' position='0 -5 -1' width='30' height='10' src='https://media.istockphoto.com/photos/large-area-of-carpet-in-red-picture-id140395717?b=1&k=20&m=140395717&s=170667a&w=0&h=l165Q4aE6xfL5siWLF_p8VNu6nO41yYIHqUajdi1iVM='></a-plane>
+<!--Wall-->
+  <a-plane position='0 0 -5'  width='30' height='20' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS67mvvuCYq0-8c4_Of42IS-7N1BJMp4tWh-g&usqp=CAU'></a-plane> 
+
+<!--This Section of code is written for table and its parts-->
+<!--Table -->
+  <a-plane rotation='-90 0 0' position='0 -2 0.5' width='10' height='7' src='https://media.istockphoto.com/photos/high-quality-marble-texture-picture-id1316401968?b=1&k=20&m=1316401968&s=170667a&w=0&h=LuC-8m6_TfCg-bSIfh2btFWXLoud36lIwRSXJJUE9ag='></a-plane>
+
+<!--Table Leg-->
+ <a-entity>
+  <a-cylinder position='0 -3 0.5' radius='0.5' height='2'  src='https://media.istockphoto.com/photos/high-quality-marble-texture-picture-id1316401968?b=1&k=20&m=1316401968&s=170667a&w=0&h=LuC-8m6_TfCg-bSIfh2btFWXLoud36lIwRSXJJUE9ag='></a-cylinder>
+ </a-entity>
+<!--Rug-->
+<a-plane rotation='-90 0 0' position='0 -4 0.5' width='10' height='5' src='https://cdn.shopify.com/s/files/1/0669/1123/products/SF-40_OH_400x.jpg?v=1592241660'></a-plane>
+
+<!--Chairs-->
+<!--Chair 1-->
+<a-circle rotation='0 90 0' position='-10 -0.7 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-circle rotation='0 90 0' position='-9.9 -0.7 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-circle rotation='0 90 0' position='-9.8 -0.7 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-circle rotation='-90 0 0' position='-8.8 -2.2 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-circle rotation='-90 0 0' position='-8.8 -2.1 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-circle rotation='-90 0 0' position='-9 -4 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-cylinder position='-8.5 -3 1.2' radius='0.3' height='1.4' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-cylinder>
+<!--Chair 2-->
+<a-circle rotation='0 -90 0' position='9.1 -0.7 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-circle rotation='0 -90 0' position='8.9 -0.7 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-circle rotation='0 -90 0' position='8.8 -0.7 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-circle rotation='-90 0 0' position='7.8 -2.2 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-circle rotation='-90 0 0' position='7.8 -2.1 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-circle rotation='-90 0 0' position='8 -4 0.5' radius='2' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-circle>
+<a-cylinder position='7.5 -3 1.2' radius='0.3' height='1.4' src='https://previews.123rf.com/images/scenery1/scenery11707/scenery1170700709/82764773-el-fondo-de-la-textura-de-la-hoja-de-plata-la-textura-de-plata-del-negro-del-acero-texturiz%C3%B3-el-fond.jpg'></a-cylinder>
+<!--Wall Paintings-->
+<a-plane position='-6 2 -3' width='4' height='6' src='https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/cherry-blossoms-in-the-mist-revisited-joe-mandrick.jpg'></a-plane>
+<a-plane position='6 2 -3' width='4' height='6' src='https://i.pinimg.com/originals/22/cd/76/22cd76da45c34cffee67dbca770e62b5.png'></a-plane>
+<a-plane position='0 2 -3' width='3' height='6' src='https://i.pinimg.com/originals/22/cd/76/22cd76da45c34cffee67dbca770e62b5.png'></a-plane>
+<!--Light-->
+<a-cylinder position='0 4 0' radius='0.2' height='4' color='grey'></a-cylinder>
+<a-cone position='0 3 0' radius='6' height='2' color='grey'></a-cone>
+<a-sphere position='0 2 0' radius='0.4' color='yellow' light='type:ambient'></a-sphere>
+
+</a-scene>
+</body>
+</html>
